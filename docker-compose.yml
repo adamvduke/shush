@@ -7,3 +7,6 @@ app:
   build: .
   links:
     - redis
+  labels:
+    - "SERVICE_9393_NAME=shush"
+    - "SERVICE_9393_TAGS=load-balance"
